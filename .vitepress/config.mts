@@ -18,7 +18,8 @@ export default defineConfig({
           { text: 'ログイン', link: '/website/login' },
           { text: 'トップページ設定・全体設定', link: '/website/config' },
           { text: '固定ページ管理', link: '/website/pages' },
-          { text: '記事ページ管理', link: '/website/posts' }
+          { text: '記事ページ管理', link: '/website/posts' },
+          { text: '作品紹介ページ管理', link: '/website/works' }
         ]
       }
     ],
