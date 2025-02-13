@@ -13,16 +13,17 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '公式サイト更新マニュアル',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'ログイン', link: '/website/login' },
+          { text: 'トップページ設定・全体設定', link: '/website/config' },
+          { text: '固定ページ管理', link: '/website/pages' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/TCU-DC' }
     ]
   }
 })
