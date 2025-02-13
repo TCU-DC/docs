@@ -22,6 +22,7 @@ export default defineConfig({
           { text: '作品紹介ページ管理', link: '/website/works' },
           { text: '班管理', link: '/website/groups' },
           { text: 'メンバー管理', link: '/website/members' },
+          { text: '記事ページ用カテゴリ管理', link: '/website/post_categories' }
         ]
       }
     ],
