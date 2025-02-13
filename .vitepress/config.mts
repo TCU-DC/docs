@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "TCU-DC Programming Group Docs",
-  description: "東京都市大学デジタルコンテンツ研究会プログラミング班の引き継ぎ資料等をまとめたドキュメント。",
+  title: "TCU-DC PG Docs",
+  description: "東京都市大学デジタルコンテンツ研究会プログラミング班引き継ぎ資料",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

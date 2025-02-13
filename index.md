@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "TCU-DC Programming Group Docs"
-  text: "東京都市大学デジタルコンテンツ研究会プログラミング班の引き継ぎ資料等をまとめたドキュメント。"
-  tagline: My great project tagline
+  text: "TCU-DC プログラミング班ドキュメント"
+  tagline: 東京都市大学デジタルコンテンツ研究会 プログラミング班の引き継ぎ資料をまとめたドキュメントです。
   actions:
     - theme: brand
       text: Markdown Examples
