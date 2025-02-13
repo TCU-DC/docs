@@ -19,7 +19,8 @@ export default defineConfig({
           { text: 'トップページ設定・全体設定', link: '/website/config' },
           { text: '固定ページ管理', link: '/website/pages' },
           { text: '記事ページ管理', link: '/website/posts' },
-          { text: '作品紹介ページ管理', link: '/website/works' }
+          { text: '作品紹介ページ管理', link: '/website/works' },
+          { text: '班管理', link: '/website/groups' }
         ]
       }
     ],
