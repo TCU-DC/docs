@@ -20,7 +20,8 @@ export default defineConfig({
           { text: '固定ページ管理', link: '/website/pages' },
           { text: '記事ページ管理', link: '/website/posts' },
           { text: '作品紹介ページ管理', link: '/website/works' },
-          { text: '班管理', link: '/website/groups' }
+          { text: '班管理', link: '/website/groups' },
+          { text: 'メンバー管理', link: '/website/members' },
         ]
       }
     ],
