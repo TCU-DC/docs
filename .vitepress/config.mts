@@ -24,6 +24,12 @@ export default defineConfig({
           { text: 'メンバー管理', link: '/website/members' },
           { text: '記事ページ用カテゴリ管理', link: '/website/post_categories' }
         ]
+      },
+      {
+        text: '公式サイト技術マニュアル',
+        items: [
+          { text: 'README', link: '/website_tech/index' },
+        ]
       }
     ],
 
