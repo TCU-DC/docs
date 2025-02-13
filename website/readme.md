@@ -8,14 +8,14 @@
 
 ## 公式サイト更新マニュアルページ一覧
 
-- [ログイン](/website/login)
-- [トップページ設定・全体設定](/website/config)
-- [固定ページ管理](/website/pages)
-- [記事ページ管理](/website/posts)
-- [作品紹介ページ管理](/website/works)
-- [班管理](/website/groups)
-- [メンバー管理](/website/members)
-- [記事ページ用カテゴリ管理](/website/post_categories)
+- [ログイン](/website/login.md)
+- [トップページ設定・全体設定](/website/config.md)
+- [固定ページ管理](/website/pages.md)
+- [記事ページ管理](/website/posts.md)
+- [作品紹介ページ管理](/website/works.md)
+- [班管理](/website/groups.md)
+- [メンバー管理](/website/members.md)
+- [記事ページ用カテゴリ管理](/website/post_categories.md)
 
 ## 各種リンク
 
