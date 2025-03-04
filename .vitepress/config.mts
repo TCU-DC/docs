@@ -7,15 +7,21 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '公式サイト更新マニュアル', link: '/website/readme' }
     ],
 
     sidebar: [
       {
+        text: 'はじめに',
+        items: [
+          { text: 'このサイトについて', link: '/readme' },
+        ]
+      },
+      {
         text: '公式サイト更新マニュアル',
         items: [
-          { text: '公式サイトについて', link: '/website/readme' },
+          { text: '公式サイトの更新方法', link: '/website/readme' },
+          { text: 'プレビュー機能', link: '/website/preview' },
           { text: 'ログイン', link: '/website/login' },
           { text: 'トップページ設定・全体設定', link: '/website/config' },
           { text: '固定ページ管理', link: '/website/pages' },
@@ -29,14 +35,13 @@ export default defineConfig({
       {
         text: '公式サイト技術マニュアル',
         items: [
-          { text: 'README', link: '/website_tech/readme' },
+          { text: '公式サイトの技術', link: '/website_tech/readme' },
         ]
       },
       {
         text: '入会システム技術マニュアル',
         items: [
-          { text: 'README', link: '/join_tech/readme' },
-          { text: '解説', link: '/join_tech/explanation' },
+          { text: '入会システムの技術', link: '/join_tech/readme' },
         ]
       }
     ],

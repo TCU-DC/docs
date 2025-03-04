@@ -1,6 +1,7 @@
-# 技術マニュアル
+# 公式サイト技術マニュアル
 
-[公式サイトGitHubリポジトリ](https://github.com/TCU-DC/tcu-dc-web)のREADMEと概ね同一の内容です。
+> [!NOTE]
+> [公式サイトGitHubリポジトリ](https://github.com/TCU-DC/tcu-dc-web)のREADMEと概ね同一の内容です。
 
 ## 各種リンク
 
