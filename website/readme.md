@@ -8,7 +8,6 @@
 
 ## 公式サイト更新マニュアルページ一覧
 
-- [プレビュー機能について](/website/preview.md)
 - [ログイン](/website/login.md)
 - [トップページ設定・全体設定](/website/config.md)
 - [固定ページ管理](/website/pages.md)
@@ -17,6 +16,7 @@
 - [班管理](/website/groups.md)
 - [メンバー管理](/website/members.md)
 - [記事ページ用カテゴリ管理](/website/post_categories.md)
+- [プレビュー機能について](/website/preview.md)
 
 ## 各種リンク
 
@@ -24,6 +24,8 @@
 - [GitHubリポジトリ](https://github.com/TCU-DC/tcu-dc-web)
 - [サイト管理ページ（microCMS）](https://app.microcms.io/signin)
 
-## 作成者
+## Contact
+
+作成者の連絡先です。何かあれば連絡してください。
 
 - info[at]shotaro.jp

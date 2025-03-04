@@ -10,6 +10,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: '本ドキュメントについて', link: '/readme' },
       { text: '公式サイト更新マニュアル', link: '/website/readme' }
     ],
 
@@ -17,14 +18,13 @@ export default defineConfig({
       {
         text: 'はじめに',
         items: [
-          { text: 'このサイトについて', link: '/readme' },
+          { text: '本ドキュメントについて', link: '/readme' },
         ]
       },
       {
         text: '公式サイト更新マニュアル',
         items: [
           { text: '公式サイトの更新方法', link: '/website/readme' },
-          { text: 'プレビュー機能', link: '/website/preview' },
           { text: 'ログイン', link: '/website/login' },
           { text: 'トップページ設定・全体設定', link: '/website/config' },
           { text: '固定ページ管理', link: '/website/pages' },
@@ -32,7 +32,8 @@ export default defineConfig({
           { text: '作品紹介ページ管理', link: '/website/works' },
           { text: '班管理', link: '/website/groups' },
           { text: 'メンバー管理', link: '/website/members' },
-          { text: '記事ページ用カテゴリ管理', link: '/website/post_categories' }
+          { text: '記事ページ用カテゴリ管理', link: '/website/post_categories' },
+          { text: 'プレビュー機能について', link: '/website/preview' }
         ]
       },
       {
@@ -46,11 +47,25 @@ export default defineConfig({
         items: [
           { text: '入会システムの技術', link: '/join_tech/readme' },
         ]
+      },
+      {
+        text: 'GitHub Organization',
+        items: [
+          { text: 'GitHub Organizationの管理', link: '/github/readme' },
+        ]
+      },
+            {
+        text: 'Cloudflare',
+        items: [
+          { text: 'Cloudflareの管理', link: '/cloudflare/readme' },
+        ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TCU-DC' }
+      { icon: 'youtube', link: 'https://www.youtube.com/@tcu_dc' },
+      { icon: 'x', link: 'https://x.com/tcu_dc' },
+      { icon: 'github', link: 'https://github.com/TCU-DC' },
     ]
   }
 })

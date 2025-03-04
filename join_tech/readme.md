@@ -390,6 +390,8 @@ addEventListener("fetch", event => {
 ### 管理者向け通知
 ![1702132983654.jpg](/attachments/dbe2d1c6-323c-498a-7309-d9f222958f57.jpeg)
 
-## 作成者
+## Contact
+
+作成者の連絡先です。何かあれば連絡してください。
 
 - info[at]shotaro.jp
