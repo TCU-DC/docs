@@ -8,7 +8,7 @@ hero:
   tagline: 東京都市大学デジタルコンテンツ研究会 プログラミング班の引き継ぎ資料をまとめたドキュメントです。
   actions:
     - theme: brand
-      text: このサイトについて
+      text: 本ドキュメントについて
       link: /readme.md
     - theme: alt
       text: 公式サイト更新マニュアル
