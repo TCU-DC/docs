@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "TCU-DC PG Docs",
   description: "東京都市大学デジタルコンテンツ研究会プログラミング班引き継ぎ資料",
+  lang: 'ja-JP',
+  head: [['link', { rel: 'icon', href: '/docs/favicon.ico' }]],
+  base: '/docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

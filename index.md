@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: このサイトについて
-      link: /readme
+      link: /readme.md
     - theme: alt
       text: 公式サイト更新マニュアル
       link: /website/readme.md
