@@ -10,25 +10,33 @@
 - [microCMS](https://app.microcms.io/signin)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
 
-## コンテンツ管理
+## 使用技術
+
+| 言語 | 開発環境 | ヘッドレスCMS | デプロイ |
+| - | - | - | - |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)<br>![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)<br>![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | ![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)<br>![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)<br>![Stylelint](https://img.shields.io/badge/stylelint-000?style=for-the-badge&logo=stylelint&logoColor=white)<br>![Github Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) | ![MicroCMS](https://img.shields.io/badge/microcms-000000?style=for-the-badge) | ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=for-the-badge&logo=Cloudflare%20Pages&logoColor=white) |
+
+## コンテンツ管理（ヘッドレスCMS）
 
 サイト内コンテンツの管理には、[microCMS](https://microcms.io/) を利用しています。
 
-以下の URL から microCMS の管理画面にアクセスできます。
+以下のリンクから microCMS の管理画面にアクセスできます。
 
 - https://app.microcms.io/signin
 
-## デプロイ先
+## デプロイ
 
-本リポジトリの `main` ブランチに push すると、[Cloudflare Pages](https://pages.cloudflare.com/) に自動デプロイされます。
+本リポジトリの `main` ブランチに push もしくは microCMS のコンテンツを更新すると、[Cloudflare Pages](https://pages.cloudflare.com/) に自動デプロイされます。
 
-ビルド時に静的な HTML ファイルを生成する（SSG）ため、microCMS でコンテンツを更新した場合、サイトに反映されるまで数分かかります。
+ビルド時に静的な HTML ファイルを生成する（SSG）ため、サイトに更新が反映されるまで数分かかります。
 
-## 使用技術
+Next.js プロジェクトを Cloudflare Pages にデプロイするために、[@cloudflare/next-on-pages](https://github.com/cloudflare/next-on-pages) を利用しています。
 
-| 言語 | 開発環境 | ヘッドレスCMS | デプロイ先 |
-| - | - | - | - |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)<br>![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)<br>![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | ![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)<br>![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)<br>![Stylelint](https://img.shields.io/badge/stylelint-000?style=for-the-badge&logo=stylelint&logoColor=white)<br>![Github Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) | ![MicroCMS](https://img.shields.io/badge/microcms-000000?style=for-the-badge) | ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=for-the-badge&logo=Cloudflare%20Pages&logoColor=white) |
+本プロジェクトは Cloudflare Pages にデプロイ済みですが、現在の設定を削除し再デプロイする場合には以下の設定が必要です。
+
+- `設定 > 変数とシークレット` にて、環境変数を追加（設定内容は `.env.example` 参照）
+
+- `設定 > ランタイム > 互換性フラグ` にて `nodejs_compat` を追加して保存
 
 ## Getting Started
 
